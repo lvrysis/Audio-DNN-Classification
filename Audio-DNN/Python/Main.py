@@ -62,7 +62,7 @@ def ann_esr(mode, epochs, fold, folds):
     x_8, y_8 = hi.load_features_csv(path + '_siren.csv', 8)
     x_9, y_9 = hi.load_features_csv(path + '_street_music.csv', 9)
 
-    x_train = np.concatenate((get_array_part(x_0, 0.0, s2),
+    x_train = np.concatenate((get_array_part(x_0, 0.0, s1),
                               get_array_part(x_1, 0.0, s1),
                               get_array_part(x_2, 0.0, s1),
                               get_array_part(x_3, 0.0, s1),
@@ -82,7 +82,7 @@ def ann_esr(mode, epochs, fold, folds):
                               get_array_part(x_7, s2, 1.0),
                               get_array_part(x_8, s2, 1.0),
                               get_array_part(x_9, s2, 1.0)), axis=0)
-    y_train = np.concatenate((get_array_part(y_0, 0.0, s2),
+    y_train = np.concatenate((get_array_part(y_0, 0.0, s1),
                               get_array_part(y_1, 0.0, s1),
                               get_array_part(y_2, 0.0, s1),
                               get_array_part(y_3, 0.0, s1),
@@ -177,7 +177,7 @@ def cnn_1d_esr(epochs, fold, folds):
     x_8, y_8 = hi.load_audio(path + '_siren.wav', 8)
     x_9, y_9 = hi.load_audio(path + '_street_music.wav', 9)
 
-    x_train = np.concatenate((get_array_part(x_0, 0.0, s2),
+    x_train = np.concatenate((get_array_part(x_0, 0.0, s1),
                               get_array_part(x_1, 0.0, s1),
                               get_array_part(x_2, 0.0, s1),
                               get_array_part(x_3, 0.0, s1),
@@ -197,7 +197,7 @@ def cnn_1d_esr(epochs, fold, folds):
                               get_array_part(x_7, s2, 1.0),
                               get_array_part(x_8, s2, 1.0),
                               get_array_part(x_9, s2, 1.0)), axis=0)
-    y_train = np.concatenate((get_array_part(y_0, 0.0, s2),
+    y_train = np.concatenate((get_array_part(y_0, 0.0, s1),
                               get_array_part(y_1, 0.0, s1),
                               get_array_part(y_2, 0.0, s1),
                               get_array_part(y_3, 0.0, s1),
@@ -263,7 +263,7 @@ def cnn_2d_esr(epochs, fold, folds):
     x_8, y_8 = hi.load_spectrum_csv(path + '_siren.csv', 8)
     x_9, y_9 = hi.load_spectrum_csv(path + '_street_music.csv', 9)
 
-    x_train = np.concatenate((get_array_part(x_0, 0.0, s2),
+    x_train = np.concatenate((get_array_part(x_0, 0.0, s1),
                               get_array_part(x_1, 0.0, s1),
                               get_array_part(x_2, 0.0, s1),
                               get_array_part(x_3, 0.0, s1),
@@ -283,7 +283,7 @@ def cnn_2d_esr(epochs, fold, folds):
                               get_array_part(x_7, s2, 1.0),
                               get_array_part(x_8, s2, 1.0),
                               get_array_part(x_9, s2, 1.0)), axis=0)
-    y_train = np.concatenate((get_array_part(y_0, 0.0, s2),
+    y_train = np.concatenate((get_array_part(y_0, 0.0, s1),
                               get_array_part(y_1, 0.0, s1),
                               get_array_part(y_2, 0.0, s1),
                               get_array_part(y_3, 0.0, s1),
