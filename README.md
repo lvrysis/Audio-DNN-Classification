@@ -12,9 +12,9 @@ Specific implementations are described in the following papers:
 [Experimenting with 1D CNN Architectures for General Audio Classification](https://scholar.google.gr/citations?hl=en&user=PI4P918AAAAJ&view_op=list_works&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DPI4P918AAAAJ%26sortby%3Dpubdate%26citation_for_view%3DPI4P918AAAAJ%3ATQgYirikUcIC%26tzom%3D-180)  
 
 You can experiment using the LVLib or BDLib Datasets:  
-[LVLib-SM)-v1](http://research.playcompass.com/files/LVLib-SMO-1.zip)  
-[LVLib-SM)-v2](http://research.playcompass.com/files/LVLib-SMO-2.zip)  
-[LVLib-SM)-v3](http://research.playcompass.com/files/LVLib-SMO-3.zip)  
-[LVLib-SM)-v4](http://research.playcompass.com/files/LVLib-SMO-4.zip)  
+[LVLib-SMO-v1](http://research.playcompass.com/files/LVLib-SMO-1.zip)  
+[LVLib-SMO-v2](http://research.playcompass.com/files/LVLib-SMO-2.zip)  
+[LVLib-SMO-v3](http://research.playcompass.com/files/LVLib-SMO-3.zip)  
+[LVLib-SMO-v4](http://research.playcompass.com/files/LVLib-SMO-4.zip)  
 [BDLib-v1](http://research.playcompass.com/files/BDLib-1.zip)  
 [BDLib-v2](http://research.playcompass.com/files/BDLib-2.zip)  
